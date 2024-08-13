@@ -19,4 +19,4 @@ export AUGUSTUS_CONFIG_PATH="/n/holylfs/LABS/edwards_lab/Users/skurtis/WGS_Super
 
 run_BUSCO.py -c16 -o Masio_pseudohap2a1_BUSCO1 -i /n/holylfs/LABS/edwards_lab/Users/skurtis/WGS_Supernova/Masio_pseudohap2.1.fasta -l /n/holylfs/LABS/edwards_lab/Users/skurtis/WGS_Supernova/BUSCO/odb9_Zalb/aves_odb9 -m geno
 
-# The above script runs the first pseudohaplotype file (the reference genome FASTA file) through BUSCO using the zebra finch as a reference. BUSCO checks for completeness of the genome. 
+# The above script runs the first pseudohaplotype file (the reference genome FASTA file) through BUSCO using the zebra finch as a reference. BUSCO checks for quality and completeness of the genome assembly. 
